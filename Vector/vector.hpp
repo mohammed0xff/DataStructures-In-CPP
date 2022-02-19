@@ -298,7 +298,8 @@ vector<T>::~vector()
 
 
 
-
+// We must add typename keyword before return value "vector<T>::iterator"
+// to indicate a nested type.
 
 template<typename T>
 typename vector<T>::iterator vector<T>::begin()
