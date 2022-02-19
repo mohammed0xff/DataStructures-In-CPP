@@ -1,6 +1,6 @@
 
 
-#include "stack.hpp"
+#include "../stack.hpp"
 
 int main() {
 
@@ -22,6 +22,7 @@ int main() {
 
     std::cout << "empty() : " << st1.empty() << "\n";
     std::cout << "full() : "  << st1.full()  << "\n";
+    std::cout << "size() : "  << st1.size()  << "\n";
 
 
     std::cout << "displaying st1 : " << std::endl;
