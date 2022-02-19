@@ -168,11 +168,9 @@ T stack<T>::top()
 template<typename T>
 void stack<T>::swap(stack<T>& rhs)
 {
-    if (rhs != (*this)) {
-        stack<T> temp = rhs;
-        rhs = *this;
-        this = &temp;
-    }
+    std::swap(this->m_data, rhs.m_data);
+    std::swap(this->m_capacity, rhs.m_capacity);
+    std::swap(this->m_size, rhs.m_size);
 }
 
 
