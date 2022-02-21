@@ -32,7 +32,6 @@ To Do:
 ## Contributing:
 
 Any contributions you make are greatly appreciated.
-
 You can have as much fun as you want with this repo.
 
 1. Fork the Project
