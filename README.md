@@ -11,14 +11,18 @@ This repo contains :
 * LinkedList
 * HashMap
 * Trees
-  - BinarySearchTree
-  
+  - Binary Search Tree
+  - Red Black Tree 
+  - AVL Tree 
+* Heaps 
+  - Min Heap
+* Graph
+
 
 To Do:
-- [x] AVLTree
 - [ ] SplayTree
-- [ ] Graph
-- [ ] Heap
+- [ ] Max Heap
+
 
 
 ## Recommended resourses for learning:
